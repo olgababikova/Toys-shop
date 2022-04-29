@@ -58,31 +58,6 @@ body {
 	padding-left: 5px;
 	padding-right: 5px;
 }
-/*--------------pc------------*/
-@media (max-width: 1200px) {
-	.container {
-		max-width: 970px;
-	}
-}
-/*-----------tablet-------------*/
-@media (max-width: 991.98px) {
-	.container {
-		max-width: 750px;
-	}
-}
-/*-----------mobile----------*/
-@media (max-width: 767.98px) {
-	.container {
-		max-width: none;
-	}
-}
-/*---------small mobile------------*/
-@media (max-width: 479.98px) {
-	.container {
-		max-width: none;
-		padding: 5px 0;
-	}
-}
 .header {
 	position: fixed;
 	width: 100%;
@@ -167,8 +142,23 @@ body {
 .shop li{
 	margin-left: 13px;
 }
+/*--------------pc------------*/
+@media (max-width: 1200px) {
+	.container {
+		max-width: 970px;
+	}
+}
+/*-----------tablet-------------*/
+@media (max-width: 991.98px) {
+	.container {
+		max-width: 750px;
+	}
+}
 /*-----------mobile----------*/
 @media (max-width: 767.98px) {
+	.container {
+		max-width: none;
+	}
 	.header-2 {
 		height: 50px;
 		padding-top: 12px;
@@ -180,6 +170,15 @@ body {
 		display: none;
 	}
 }
+/*---------small mobile------------*/
+@media (max-width: 479.98px) {
+	.container {
+		max-width: none;
+		padding: 5px 0;
+	}
+}
+
+
 /*--------Основная часть----------------*/
 .free {
 	background-image: url(img/free.png);
